@@ -22,7 +22,7 @@ void main() {
 
   // Modulo Operation Function
   newPos.y = mod(position.y - (uTime * -velocityY * 10.0), rangeY) - rangeY/2.0;
-  
+
   // Sine Type Wave Function
   newPos.x += sin(uTime * angle) * cos(uTime * 2.0 * angle) * (amplitudeX * 10.0);
 
